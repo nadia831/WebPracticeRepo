@@ -1,0 +1,42 @@
+/*your overall page margin with the entire web page*/
+/*the larger margin is, the bigger space between each div and page has*/
+/*the larger padding is, the bigger space  around an element has*/
+/*border properties allow you to specify the style, width, and color of an element's border*/
+
+*{
+    margin: 10px;
+    padding: 20px;
+}
+#wrapper{
+    height: 600px;
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+#pageheader{
+    min-height: 50px;
+    background-color: green;
+}
+#nev{
+    min-height: 200px;
+    width: 100px;
+    float: left;
+    background-color: blue;
+}
+#maincontent{
+    min-height: 400px;
+    width: 700px;
+    float: right;
+    background-color: red;
+}
+.contents{
+    min-height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: inline-block;
+}
+#advertisement{
+    min-height: 20px;
+    width: 575px;
+    background-color: purple;
+}
