@@ -1,11 +1,11 @@
 
-body *{
+/* body *{
     outline: 1px solid pink;
-}
+} */
 
 .whole_page_container{
     height: 800px;
-    width: 945px;
+    width: 1020px;
     background-color: silver;
     margin: 0px auto;
 }
@@ -47,6 +47,7 @@ div.whole_page_container div.about_me_box div.my_image{
     margin: 10px;
     text-align: center;
     display: inline-block;
+    border-style: solid;
 }
 
 div.whole_page_container div.about_me{
@@ -57,6 +58,7 @@ div.whole_page_container div.about_me{
     margin: 10px;
     text-align: left;
     display: inline-block;
+    border-style: solid;
 }
 
 div.whole_page_container div.details div.my_school, div.my_work, div.Contacts{
@@ -67,6 +69,7 @@ div.whole_page_container div.details div.my_school, div.my_work, div.Contacts{
     text-align: center;
     display: inline-block;
     vertical-align: top;
+    border-style: solid;
 }
 
 div.whole_page_container div.details ul li{
@@ -87,6 +90,7 @@ div.technologies div.school_tech, div.work_tech, div.personal_tech{
     text-align: center;
     display: inline-block;
     vertical-align: top;
+    border-style: solid;
 }
 
 div.whole_page_container div.technologies a{
