@@ -64,12 +64,13 @@ div.whole_page_container div.about_me{
 div.whole_page_container div.details div.my_school, div.my_work, div.Contacts{
     min-height: 40px;
     width: 280px;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     text-align: center;
     display: inline-block;
     vertical-align: top;
     border-style: solid;
+    background-color: azure;
 }
 
 div.whole_page_container div.details ul li{
@@ -79,18 +80,23 @@ div.whole_page_container div.details ul li{
 }
 
 div.whole_page_container div.details ul{
-    border-top: solid blue;
-    border-bottom: solid blue;
+    border-radius: 5px;
+    width: 250px;
+    padding: 2px;
+    display: inline-block;
+    background-color: lightgreen;
 }
 div.technologies div.school_tech, div.work_tech, div.personal_tech{
-    min-height: 150px;
+    min-height: 100px;
     width: 280px;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     text-align: center;
     display: inline-block;
     vertical-align: top;
     border-style: solid;
+    background-color: wheat;
+    
 }
 
 div.whole_page_container div.technologies a{
