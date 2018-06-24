@@ -81,10 +81,11 @@ div.whole_page_container div.details ul li{
 
 div.whole_page_container div.details ul{
     border-radius: 5px;
-    width: 250px;
+    width: 280px;
     padding: 2px;
     display: inline-block;
     background-color: lightgreen;
+    border-radius: 10px 10px 10px 10px;
 }
 div.technologies div.school_tech, div.work_tech, div.personal_tech{
     min-height: 100px;
